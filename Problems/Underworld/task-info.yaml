@@ -1,0 +1,19 @@
+type: code
+files:
+- name: main.py
+  visible: true
+  text: '# the variable `coin` is already defined'
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/7076
+status: Failed
+feedback:
+  message: |
+    Failed test #1 of 2. Runtime error
+
+    Error:
+    Traceback (most recent call last):
+      File "jailed_code", line 3, in <module>
+        import coin as coin
+    ModuleNotFoundError: No module named 'coin'
+  time: Thu, 27 Aug 2020 18:30:34 UTC
+record: -1
